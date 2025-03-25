@@ -1,0 +1,782 @@
+{
+  "frame": {
+    "name": "Motorcycle Leasing Startup Landing Page",
+    "width": 1920,
+    "height": 5000,
+    "background": "#FFFFFF"
+  },
+  "elements": [
+    {
+      "type": "section",
+      "name": "Header",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1920,
+        "height": 100
+      },
+      "style": {
+        "background": "#2E7D32"
+      },
+      "childelements": [
+        {
+          "type": "text",
+          "position": {
+            "x": 50,
+            "y": 30
+          },
+          "size": {
+            "width": 200,
+            "height": 40
+          },
+          "style": {
+            "color": "#FFFFFF",
+            "font-size": 24
+          },
+          "content": "Rydas"
+        },
+        {
+          "type": "container",
+          "position": {
+            "x": 300,
+            "y": 30
+          },
+          "size": {
+            "width": 1000,
+            "height": 40
+          },
+          "style": {
+            "background": "#2E7D32"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1000,
+                "height": 40
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 18,
+                "align-items": "center"
+              },
+              "content": "Home | Services | About Us | FAQs"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "position": {
+            "x": 1450,
+            "y": 30
+          },
+          "size": {
+            "width": 150,
+            "height": 40
+          },
+          "style": {
+            "background": "#FFFFFF",
+            "color": "#2E7D32",
+            "font-size": 18,
+            "border-radius": 5
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 150,
+                "height": 40
+              },
+              "style": {
+                "color": "#2E7D32",
+                "font-size": 18,
+                "align-items": "center"
+              },
+              "content": "Contact Us"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Hero Section",
+      "position": {
+        "x": 0,
+        "y": 100
+      },
+      "size": {
+        "width": 1920,
+        "height": 600
+      },
+      "style": {
+        "background": "#FFFFFF"
+      },
+      "childelements": [
+        {
+          "type": "image",
+          "position": {
+            "x": 100,
+            "y": 150
+          },
+          "size": {
+            "width": 800,
+            "height": 400
+          },
+          "style": {
+            "background": "#FFFFFF"
+          },
+          "src": "path/to/motorcyclist-image.jpg"
+        },
+        {
+          "type": "text",
+          "position": {
+            "x": 950,
+            "y": 200
+          },
+          "size": {
+            "width": 800,
+            "height": 100
+          },
+          "style": {
+            "color": "#2E7D32",
+            "font-size": 48
+          },
+          "content": "Empower Your Ride with Rydas"
+        },
+        {
+          "type": "button",
+          "position": {
+            "x": 950,
+            "y": 350
+          },
+          "size": {
+            "width": 300,
+            "height": 60
+          },
+          "style": {
+            "background": "#2E7D32",
+            "color": "#FFFFFF",
+            "font-size": 24,
+            "border-radius": 5
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 300,
+                "height": 60
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 24,
+                "align-items": "center"
+              },
+              "content": "Join Waiting List"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Feature Showcase",
+      "position": {
+        "x": 0,
+        "y": 700
+      },
+      "size": {
+        "width": 1920,
+        "height": 800
+      },
+      "style": {
+        "background": "#F5F5F5"
+      },
+      "childelements": [
+        {
+          "type": "container",
+          "position": {
+            "x": 100,
+            "y": 750
+          },
+          "size": {
+            "width": 1700,
+            "height": 700
+          },
+          "style": {
+            "background": "#F5F5F5"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 1700,
+                "height": 100
+              },
+              "style": {
+                "color": "#2E7D32",
+                "font-size": 36,
+                "align-items": "center"
+              },
+              "content": "Our Features"
+            },
+            {
+              "type": "container",
+              "position": {
+                "x": 0,
+                "y": 150
+              },
+              "size": {
+                "width": 1700,
+                "height": 550
+              },
+              "style": {
+                "background": "#F5F5F5"
+              },
+              "children": [
+                {
+                  "type": "container",
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "size": {
+                    "width": 400,
+                    "height": 550
+                  },
+                  "style": {
+                    "background": "#FFFFFF"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 20
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 50
+                      },
+                      "style": {
+                        "color": "#2E7D32",
+                        "font-size": 24,
+                        "align-items": "center"
+                      },
+                      "content": "Feature 1"
+                    },
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 80
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 400
+                      },
+                      "style": {
+                        "color": "#4E4E4E",
+                        "font-size": 18,
+                        "align-items": "left"
+                      },
+                      "content": "Description of feature 1."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "position": {
+                    "x": 450,
+                    "y": 0
+                  },
+                  "size": {
+                    "width": 400,
+                    "height": 550
+                  },
+                  "style": {
+                    "background": "#FFFFFF"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 20
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 50
+                      },
+                      "style": {
+                        "color": "#2E7D32",
+                        "font-size": 24,
+                        "align-items": "center"
+                      },
+                      "content": "Feature 2"
+                    },
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 80
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 400
+                      },
+                      "style": {
+                        "color": "#4E4E4E",
+                        "font-size": 18,
+                        "align-items": "left"
+                      },
+                      "content": "Description of feature 2."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "position": {
+                    "x": 900,
+                    "y": 0
+                  },
+                  "size": {
+                    "width": 400,
+                    "height": 550
+                  },
+                  "style": {
+                    "background": "#FFFFFF"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 20
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 50
+                      },
+                      "style": {
+                        "color": "#2E7D32",
+                        "font-size": 24,
+                        "align-items": "center"
+                      },
+                      "content": "Feature 3"
+                    },
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 80
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 400
+                      },
+                      "style": {
+                        "color": "#4E4E4E",
+                        "font-size": 18,
+                        "align-items": "left"
+                      },
+                      "content": "Description of feature 3."
+                    }
+                  ]
+                },
+                {
+                  "type": "container",
+                  "position": {
+                    "x": 1350,
+                    "y": 0
+                  },
+                  "size": {
+                    "width": 400,
+                    "height": 550
+                  },
+                  "style": {
+                    "background": "#FFFFFF"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 20
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 50
+                      },
+                      "style": {
+                        "color": "#2E7D32",
+                        "font-size": 24,
+                        "align-items": "center"
+                      },
+                      "content": "Feature 4"
+                    },
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 20,
+                        "y": 80
+                      },
+                      "size": {
+                        "width": 360,
+                        "height": 400
+                      },
+                      "style": {
+                        "color": "#4E4E4E",
+                        "font-size": 18,
+                        "align-items": "left"
+                      },
+                      "content": "Description of feature 4."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Waitlist Form",
+      "position": {
+        "x": 0,
+        "y": 1500
+      },
+      "size": {
+        "width": 1920,
+        "height": 500
+      },
+      "style": {
+        "background": "#FFFFFF"
+      },
+      "childelements": [
+        {
+          "type": "container",
+          "position": {
+            "x": 710,
+            "y": 1550
+          },
+          "size": {
+            "width": 500,
+            "height": 400
+          },
+          "style": {
+            "background": "#F5F5F5"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 500,
+                "height": 40
+              },
+              "style": {
+                "color": "#2E7D32",
+                "font-size": 24,
+                "align-items": "center"
+              },
+              "content": "Join the Waitlist"
+            },
+            {
+              "type": "container",
+              "position": {
+                "x": 0,
+                "y": 60
+              },
+              "size": {
+                "width": 500,
+                "height": 300
+              },
+              "style": {
+                "background": "#FFFFFF"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "position": {
+                    "x": 20,
+                    "y": 0
+                  },
+                  "size": {
+                    "width": 460,
+                    "height": 40
+                  },
+                  "style": {
+                    "color": "#4E4E4E",
+                    "font-size": 18,
+                    "align-items": "left"
+                  },
+                  "content": "Name"
+                },
+                {
+                  "type": "text",
+                  "position": {
+                    "x": 20,
+                    "y": 60
+                  },
+                  "size": {
+                    "width": 460,
+                    "height": 40
+                  },
+                  "style": {
+                    "color": "#4E4E4E",
+                    "font-size": 18,
+                    "align-items": "left"
+                  },
+                  "content": "Email"
+                },
+                {
+                  "type": "text",
+                  "position": {
+                    "x": 20,
+                    "y": 120
+                  },
+                  "size": {
+                    "width": 460,
+                    "height": 40
+                  },
+                  "style": {
+                    "color": "#4E4E4E",
+                    "font-size": 18,
+                    "align-items": "left"
+                  },
+                  "content": "Phone"
+                },
+                {
+                  "type": "button",
+                  "position": {
+                    "x": 150,
+                    "y": 200
+                  },
+                  "size": {
+                    "width": 200,
+                    "height": 50
+                  },
+                  "style": {
+                    "background": "#2E7D32",
+                    "color": "#FFFFFF",
+                    "font-size": 20,
+                    "border-radius": 5
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "position": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "size": {
+                        "width": 200,
+                        "height": 50
+                      },
+                      "style": {
+                        "color": "#FFFFFF",
+                        "font-size": 20,
+                        "align-items": "center"
+                      },
+                      "content": "Submit"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Footer",
+      "position": {
+        "x": 0,
+        "y": 2000
+      },
+      "size": {
+        "width": 1920,
+        "height": 300
+      },
+      "style": {
+        "background": "#2E7D32"
+      },
+      "childelements": [
+        {
+          "type": "container",
+          "position": {
+            "x": 100,
+            "y": 2050
+          },
+          "size": {
+            "width": 500,
+            "height": 200
+          },
+          "style": {
+            "background": "#2E7D32"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 500,
+                "height": 40
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 24,
+                "align-items": "left"
+              },
+              "content": "Company"
+            },
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 50
+              },
+              "size": {
+                "width": 500,
+                "height": 150
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 18,
+                "align-items": "left"
+              },
+              "content": "About | Team | Blog"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "position": {
+            "x": 700,
+            "y": 2050
+          },
+          "size": {
+            "width": 500,
+            "height": 200
+          },
+          "style": {
+            "background": "#2E7D32"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 500,
+                "height": 40
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 24,
+                "align-items": "left"
+              },
+              "content": "Legal"
+            },
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 50
+              },
+              "size": {
+                "width": 500,
+                "height": 150
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 18,
+                "align-items": "left"
+              },
+              "content": "Terms of Service | Privacy Policy"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "position": {
+            "x": 1300,
+            "y": 2050
+          },
+          "size": {
+            "width": 500,
+            "height": 200
+          },
+          "style": {
+            "background": "#2E7D32"
+          },
+          "children": [
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "size": {
+                "width": 500,
+                "height": 40
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 24,
+                "align-items": "left"
+              },
+              "content": "Contact"
+            },
+            {
+              "type": "text",
+              "position": {
+                "x": 0,
+                "y": 50
+              },
+              "size": {
+                "width": 500,
+                "height": 150
+              },
+              "style": {
+                "color": "#FFFFFF",
+                "font-size": 18,
+                "align-items": "left"
+              },
+              "content": "Email: info@rydas.com | Phone: +123456789"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

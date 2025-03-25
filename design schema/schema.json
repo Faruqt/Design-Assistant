@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AIDesignAssistantSchema",
+  "type": "object",
+  "required": ["frame", "elements"],
+  "properties": {
+    "frame": {
+      "type": "object",
+      "required": ["name", "width", "height", "background"],
+      "properties": {
+        "name": { "type": "string" },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "background": {
+          "type": "string",
+          "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+        }
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "name",
+          "position",
+          "size",
+          "style",
+          "childelements"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["section"]
+          },
+          "name": {
+            "type": "string"
+          },
+          "position": {
+            "type": "object",
+            "required": ["x", "y"],
+            "properties": {
+              "x": { "type": "integer", "minimum": 0 },
+              "y": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "size": {
+            "type": "object",
+            "required": ["width", "height"],
+            "properties": {
+              "width": { "type": "integer", "minimum": 1 },
+              "height": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "background": {
+                "type": "string",
+                "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+              }
+            }
+          },
+          "childelements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type", "position", "size"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["text", "button", "image", "container"]
+                },
+                "position": {
+                  "type": "object",
+                  "required": ["x", "y"],
+                  "properties": {
+                    "x": { "type": "integer", "minimum": 0 },
+                    "y": { "type": "integer", "minimum": 0 }
+                  }
+                },
+                "size": {
+                  "type": "object",
+                  "required": ["width", "height"],
+                  "properties": {
+                    "width": { "type": "integer", "minimum": 1 },
+                    "height": { "type": "integer", "minimum": 1 }
+                  }
+                },
+                "style": {
+                  "type": "object",
+                  "properties": {
+                    "background": {
+                      "type": "string",
+                      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+                    },
+                    "color": {
+                      "type": "string",
+                      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+                    },
+                    "font-size": { "type": "integer", "minimum": 1 },
+                    "border-radius": { "type": "integer", "minimum": 0 }
+                  }
+                },
+                "content": { "type": "string" },
+                "src": { "type": "string" },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/properties/elements/items/properties/childelements/items"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
